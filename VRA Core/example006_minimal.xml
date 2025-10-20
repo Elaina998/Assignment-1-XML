@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm vra-strict.xsd">  <!-- change to the local schema file -->
+   <work id="w_5" source="Core 4 Sample Database (VCat)" refid="5">
+      <agentSet>
+         <display>Henry Bacon (American architect, 1866-1924)</display>
+         <notes/>
+         <agent>
+            <name vocab="ULAN" refid="500029359" type="personal">Bacon, Henry</name>
+            <dates type="life">
+               <earliestDate>1866</earliestDate>
+               <latestDate>1924</latestDate>
+            </dates>
+            <culture>American</culture>
+            <role>architect</role>
+         </agent>
+      </agentSet>
+      <dateSet>
+         <display>1911-1912 (design); 1914-1922 (creation)</display>
+         <date type="design">
+            <earliestDate>1911</earliestDate>
+            <latestDate>1912</latestDate>
+         </date>
+         <date type="creation">
+            <earliestDate>1914</earliestDate>
+            <latestDate>1922</latestDate>
+         </date>
+      </dateSet>
+      <locationSet>
+         <display>Washington, District of Columbia, United States</display>
+         <notes>On the National Mall</notes>
+         <location type="site">
+            <name type="geographic" vocab="TGN" refid="7013962" extent="inhabited place">Washington</name>
+            <name type="geographic" vocab="TGN" refid="7015717" extent="department; district">District of Columbia</name>
+            <name type="geographic" vocab="TGN" refid="7012149" extent="nation">United States</name>
+            <name type="geographic" vocab="TGN" refid="1000001" extent="continent">North and Central America</name>
+         </location>
+      </locationSet>
+      <titleSet>
+         <display> Lincoln Memorial</display>
+         <title type="cited" pref="true" xml:lang="en"> Lincoln Memorial</title>
+      </titleSet>
+      <worktypeSet>
+         <display>buildings; memorials; built works; monuments</display>
+         <worktype vocab="AAT" refid="300006956">memorial</worktype>
+         <worktype vocab="AAT" refid="300006958">monument</worktype>
+      </worktypeSet>
+   </work>
+   <image id="i_104" href="http://www.core.vraweb.org/examples/html/example006_full.html" refid="104" source="VRA Core Oversight Committee, Core 4 Sample Records">
+      <relationSet>
+         <relation type="imageOf" refid="5" source="Core 4 Sample Database (VCat)"/>
+      </relationSet>
+      <titleSet>
+         <display>Facade; Doric order </display>
+         <title type="generalView">Facade; Doric order </title>
+      </titleSet>
+      <worktypeSet>
+         <display>digital image</display>
+         <notes/>
+         <worktype/>
+      </worktypeSet>
+   </image>
+</vra>

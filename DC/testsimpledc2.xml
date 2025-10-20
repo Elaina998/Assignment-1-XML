@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://example.org/appsimpledc/"
+             xmlns:dc="http://purl.org/dc/elements/1.1/"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://example.org/appsimpledc/ appsimpledc.xsd">
+
+<simpledc ID="1">
+	<!-- Test case for appsimpledc.xsd -->
+	<dc:title>Test the appsimpledc.xsd</dc:title>
+	<dc:creator>Tim Cole</dc:creator>
+	<dc:creator>Tom Habing</dc:creator>
+	<dc:subject>Information organization </dc:subject>
+	</simpledc>
+</metadata>
+
